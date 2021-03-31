@@ -11,7 +11,6 @@ public class AddressNotify implements Notify {
 	
 	public AddressNotify(String hostServidorSmtp) {
 		this.hostServidorSmtp = hostServidorSmtp;
-		System.out.println("AddressNotify");
 	}
 	
 	@Override

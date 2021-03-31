@@ -1,12 +1,8 @@
 package com.apidelivery.apidelivery.Services;
 
-import org.springframework.stereotype.Component;
-
-
 import com.apidelivery.apidelivery.Models.ClientModel;
 import com.apidelivery.apidelivery.Notification.Notify;
 
-@Component
 public class ActivateClientService {
 	
 	private Notify notifier;

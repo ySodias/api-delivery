@@ -1,12 +1,13 @@
-package com.apidelivery.apidelivery;
+package com.apidelivery.apidelivery.Config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 import com.apidelivery.apidelivery.Notification.AddressNotify;
+import com.apidelivery.apidelivery.Services.ActivateClientService;
 
 @Configuration
-public class ClientConfig {
+public class NotifyConfig {
 	
 	@Bean
 	public AddressNotify notifyAddress() {
