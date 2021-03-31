@@ -4,7 +4,7 @@ import org.springframework.stereotype.Component;
 
 import com.apidelivery.apidelivery.Models.ClientModel;
 
-//@Component
+@Component
 public interface Notify {
 
 	void noti(ClientModel client, String messege);
